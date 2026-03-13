@@ -13,6 +13,8 @@
 通过 Unicorn Engine 模拟执行 ACE (安全组件) shellcode，解密游戏中被加密的玩家坐标。
 纯用户态实现，所有底层操作通过 Linux syscall 完成，无需内核模块。
 
+你只需要给代码里面的偏移地址更换成正确的地址即可获取到真实的解密后的坐标内容，当然这部分代码我是不会提供的。
+
 Decrypts player coordinates encrypted by ACE (Anti-Cheat Expert) shellcode
 using Unicorn Engine emulation. Pure userspace implementation via Linux syscalls,
 no kernel module required.
